@@ -1,6 +1,6 @@
 # postgres
 
-Fork from [oelmekki/postgres-350d](https://github.com/oelmekki/postgres-350d)
+[riverlcn/postgres](https://github.com/RiverLiu/dockerfile/tree/master/postgres) fork from [oelmekki/postgres-350d](https://github.com/oelmekki/postgres-350d)
 
 Docker build of postgresql-10.7 changing the dimension limit for the cube extension, raising it to 256.
 
@@ -14,7 +14,9 @@ The image dockerhub page is here.
 
 To pull it:
 
-  docker pull riverlcn/postgres:10-cube
+```sh
+docker pull riverlcn/postgres:10-cube
+```
 
 # 说明
 
